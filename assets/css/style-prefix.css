@@ -440,6 +440,11 @@ body.fixed-header-padding {
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
+@media only screen and (max-width: 768px) {
+  .header-logo {
+    display: none;
+  }
+}
 
 .header-top,
 .header-user-actions,
